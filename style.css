@@ -1,0 +1,26 @@
+body {
+    background-image: url('BG-Picture.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: 2rem;
+    transition: border 0.3s ease;
+}
+
+.strength-text, .tips {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.form-check-label {
+    color: white;
+  }
